@@ -1,3 +1,8 @@
 body {
   background: black;
 }
+
+.loginbox {
+  color: white;
+  align-content: center;
+}
