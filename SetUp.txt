@@ -1,0 +1,11 @@
+To launch client:
+Navigate to client folder in terminal, command: npm start
+
+To launch server: 
+Navigate to server folder in terminal, command: npm start
+
+To launch MongoDB:
+Navigate to: (in Windows PowerShell)
+C:\Program Files\MongoDB\Server\6.0\bin>
+Execute:
+.\mongod
