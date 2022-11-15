@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cg545/freecomment.git"
+  },
+  "engines": {
+    "node": "18.12.1"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +23,15 @@
   },
   "homepage": "https://github.com/cg545/freecomment#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "react-router-dom": "^6.4.3",
+    "react-validation": "^3.0.7",
+    "validator": "^13.7.0"
   }
 }
