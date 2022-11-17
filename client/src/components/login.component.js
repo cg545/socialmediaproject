@@ -131,6 +131,8 @@ class Login extends Component {
                 )}
                 <span>Login</span>
               </button>
+              <center>Don't have an account yet? Click <a href="/register">here</a> to register.</center>
+
             </div>
 
             {this.state.message && (

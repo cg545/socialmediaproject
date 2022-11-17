@@ -36,24 +36,39 @@ export default class Profile extends Component {
                 <strong>{currentUser.username}</strong> Profile
               </h3>
             </header>
+
+            {/* Username */}
             <p>
-              <strong>Token:</strong>{" "}
-              {currentUser.accessToken.substring(0, 20)} ...{" "}
-              {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
-            </p>
-            <p>
-              <strong>Id:</strong>{" "}
+              <strong>Username:</strong>{" "}
               {currentUser.id}
             </p>
+
+            {/* First & Last Name */}
+            <p>
+              <strong>Name:</strong>{" "}
+              {currentUser.id}
+            </p>
+
+            {/* Email */}
             <p>
               <strong>Email:</strong>{" "}
               {currentUser.email}
             </p>
-            <strong>Authorities:</strong>
-            <ul>
-              {currentUser.roles &&
-                currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
-            </ul>
+
+            {/* Dat of Birth */}
+            <p>
+              <strong>Date of Birth:</strong>{" "}
+              {currentUser.email}
+            </p>
+
+            {/* Location */}
+            <p>
+              <strong>Name:</strong>{" "}
+              {currentUser.id}
+            </p>
+
+            {/* To do: education, branch of service, employer, */}
+
           </div> : null}
       </div>
     );
